@@ -1,0 +1,64 @@
+{
+    "Music": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Samuel Messias"},
+                  "SongTitle": {"S": "Todavia me Alegrarei"},
+                  "AlbumTitle": {"S": "Samuel Messias(Ao Vivo)"},
+                  "SongYear": {"S": "1992"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Jesse Aguiar"},
+                  "SongTitle": {"S": "Voce Consegue Sim"},
+                  "AlbumTitle": {"S": "Voce Consegue Sim"},
+                  "SongYear": {"S": "2021"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Julia Vitoria"},
+                  "SongTitle": {"S": "De Dentro Pra Fora"},
+                  "AlbumTitle": {"S": "De Dentro Pra Fora"},
+                  "SongYear": {"S": "2018"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Davi Sacer"},
+                  "SongTitle": {"S": "Sobre As Aguas"},
+                  "AlbumTitle": {"S": "O Encontro"},
+                  "SongYear": {"S": "2020"}
+                }
+            }
+        },
+        {
+          "PutRequest": {
+              "Item": {
+                "Artist": {"S": "Davi Sacer"},
+                "SongTitle": {"S": "O Chao Vai Tremer"},
+                "AlbumTitle": {"S": "O Encontro"},
+                "SongYear": {"S": "2020"}
+              }
+          }
+        },
+        {
+          "PutRequest": {
+              "Item": {
+                "Artist": {"S": "Davi Sacer"},
+                "SongTitle": {"S": "Marca da Promessa"},
+                "AlbumTitle": {"S": "O Encontro"},
+                "SongYear": {"S": "2020"}
+              }
+          }
+        }
+      ]
+}
