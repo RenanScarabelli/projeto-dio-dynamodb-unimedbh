@@ -98,9 +98,6 @@ aws dynamodb update-table \
 
 - Pesquisar item por artista
 
-aws dynamodb query --table-name Music --key-condition-expression "Artist = :artist" --expression-attribute-values "{":artist":{"S":"Davi Sacer"}}"
-
-
 ```
 aws dynamodb query \
     --table-name Music \
@@ -118,6 +115,7 @@ aws dynamodb query --table-name Music --key-condition-expression "Artist = :arti
 ```
 Retorno Recebido da pesquisa acima
 
+```
 {
     "Items": [
         {
@@ -139,6 +137,8 @@ Retorno Recebido da pesquisa acima
     "ScannedCount": 1,
     "ConsumedCapacity": null
 }
+```
+
 
 ```
 aws dynamodb query \
